@@ -6,7 +6,7 @@ class GardenError(Exception):
 
     def get_context(self, args: tuple) -> tuple:
         if not args:
-            args = (f"Unkwon {self.name} error",)
+            args = (f"Unknown {self.name} error",)
         return args
 
 

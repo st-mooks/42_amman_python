@@ -3,7 +3,7 @@ def input_temperature(temp_str: str) -> int:
     return temp
 
 
-def test_temprature() -> None:
+def test_temperature() -> None:
     temp_str = input("Enter temperature to test: ")
     print(f"Input data is '{temp_str}'")
     try:
@@ -16,4 +16,4 @@ def test_temprature() -> None:
 
 if __name__ == "__main__":
     print("=== Gareden Temperature ===\n")
-    test_temprature()
+    test_temperature()
